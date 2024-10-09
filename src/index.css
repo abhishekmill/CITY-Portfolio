@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    width: fit-content; /* Adjust width as needed */
+    overflow: hidden;
+  }
+  
+  .scrollable {
+    display: flex;
+    animation: scroll 5s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .scrollable li {
+    list-style: none;
+    margin-right: 10px; /* Adjust spacing between items */
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
