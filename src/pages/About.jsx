@@ -5,9 +5,7 @@ import Carousel from '../components/carousel';
 import CarouselText from '../components/carouselText';
  
 
-const slides=[
-  ,
-]
+const slides=[]
 
 
 
